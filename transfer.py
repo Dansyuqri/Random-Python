@@ -14,10 +14,10 @@ if len(sys.argv) < 4:
 elif len(sys.argv) == 4:
 		
 	file_ext = sys.argv[1]
-	source_dir = sys.argv[2]			#source directory to move files from
-	destination_dir = sys.argv[3]		#destination directory to move files into
+	source_dir = sys.argv[2]													#source directory to move files from
+	destination_dir = sys.argv[3]												#destination directory to move files into
 
-	x = os.listdir(source_dir)			#gets a list of all items in the source directory
+	x = os.listdir(source_dir)													#gets a list of all items in the source directory
 
 	for element in x:
 		print element
