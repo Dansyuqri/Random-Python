@@ -22,4 +22,4 @@ elif len(sys.argv) == 4:
 	for element in x:
 		print element
 		if element.endswith(file_ext):
-			os.rename(source_dir+"%s"%element, destination_dir+"%s"%element)	#moves the file from the source to destination directory
+			os.rename(source_dir+"/%s"%element, destination_dir+"/%s"%element)	#moves the file from the source to destination directory
